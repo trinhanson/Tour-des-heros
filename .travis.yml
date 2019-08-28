@@ -11,7 +11,7 @@ cache:
     - ~/.cache
 
 before_script:
-  - ng serve --open
+  - ng serve --open &
 
 
 script:
