@@ -16,6 +16,6 @@ install:
 
 before_script:
   - npm start &
-  
+
 script:
-  - npx cypress run
+  - npx cypress run --config video=false
