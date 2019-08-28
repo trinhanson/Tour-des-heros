@@ -19,4 +19,4 @@ before_script:
 
 
 script:
-  - npx cypress run
+  - $(npm bin)/cypress run --record
