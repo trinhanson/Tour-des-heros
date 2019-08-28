@@ -1,0 +1,23 @@
+<!--<div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
+    <button (click)="toggle()">The box is now {{ isOpen ? 'Open' : 'Closed' }}!</button>
+  </div>-->
+
+  <!-- Création d'un trigger childAnimation dans le ts pour pouvoir l'utiliser dans ce html
+    <div [@.disabled]="isDisabled">
+  <div [@childAnimation]="isOpen ? 'open' : 'closed'"
+    class="open-close-container">
+    <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
+  </div>
+</div>
+  -->
+
+  <!--
+    <div [@openClose]="isOpen ? 'open' : 'closed'"
+    (@openClose.start)="onAnimationEvent($event)"
+    (@openClose.done)="onAnimationEvent($event)"
+    class="open-close-container">
+</div>
+  -->
+
+  <div [@openClose]="isOpen ? true : false" class="open-close-container">
+  </div>

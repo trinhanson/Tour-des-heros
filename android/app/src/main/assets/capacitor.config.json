@@ -1,0 +1,7 @@
+{
+  "appId": "hero.test.myapp",
+  "appName": "TourOfHeroes",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist/angular-tour-of-heroes"
+}

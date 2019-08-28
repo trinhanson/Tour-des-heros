@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TourOfHeroes</string>
+    <string name="title_activity_main">TourOfHeroes</string>
+    <string name="package_name">hero.test.myapp</string>
+    <string name="fileprovider_authority">hero.test.myapp.fileprovider</string>
+    <string name="custom_url_scheme">hero.test.myapp</string>
+</resources>
