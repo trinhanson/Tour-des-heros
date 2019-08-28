@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "cypress": "wait-on http://localhost:4200 && cypress run",
     "build": "ng build angular-tour-of-heroes --prod --output-hashing=none",
     "package": "gulp package",
     "test": "ng test",
