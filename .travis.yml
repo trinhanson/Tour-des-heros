@@ -14,8 +14,6 @@ install:
   # use the new "ci" command for fastest installs on CI
   - npm ci
 
-before_script:
-  - npm start & wait-on http://localhost:4200
 
 script:
-  - npx cypress run
+  - npm start & (wait-on http://localhost:4200 && npx cypress run)
