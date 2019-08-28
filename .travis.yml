@@ -10,7 +10,9 @@ cache:
     - ~/.npm
     - ~/.cache
 
+before_script:
+  - ng serve --open
 
-defaults:
-  script:
-    - npx cypress run --record
+
+script:
+  - npx cypress run --record
