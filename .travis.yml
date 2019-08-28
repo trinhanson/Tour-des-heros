@@ -16,4 +16,5 @@ install:
 
 
 script:
-  - ng serve --open & (wait-on http://localhost:4200 && npx cypress run)
+  - wait-on http://localhost:4200 && npx cypress run
+  - npm start &
