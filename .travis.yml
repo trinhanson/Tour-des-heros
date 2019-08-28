@@ -17,4 +17,4 @@ install:
 before_script:
   - npm start & 
 script:
-  - npx wait-on http://localhost:4200 && cypress run
+  - npx cypress run
