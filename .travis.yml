@@ -16,4 +16,4 @@ install:
 
 
 script:
-  - npm start & (npm run cypress)
+  - npm run cy

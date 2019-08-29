@@ -5,9 +5,11 @@
     "ng": "ng",
     "start": "ng serve",
     "cypress": "wait-on http://localhost:4200 && cypress run",
+    "cy": "start-server-and-test http://localhost:4200 cypress:test",
     "build": "ng build angular-tour-of-heroes --prod --output-hashing=none",
     "package": "gulp package",
     "test": "ng test",
+    "cypress:test": "npx cypress run",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
@@ -56,6 +58,7 @@
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
     "protractor": "~5.4.0",
+    "start-server-and-test": "^1.10.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
